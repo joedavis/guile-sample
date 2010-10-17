@@ -1,0 +1,12 @@
+Sample-guile is an example of how to distribute programs and modules
+written fully in guile.
+
+guile-sample, the main program or script, is created from guile-sample.in
+when processed by configure. This is needed to ensure that the shebang
+line is correct.
+
+Also included is guile.m4, which defined AX_PROG_GUILE a *very* simple
+macro to search for the guile interpreter.
+
+An example module '(guile-sample hello), used by the guile sample script,
+is included.
